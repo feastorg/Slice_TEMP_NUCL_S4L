@@ -2681,7 +2681,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/ESTOP")
+			(net "Net-(U2A-PA12)")
 			(pinfunction "PA12")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
@@ -4395,6 +4395,264 @@
 			)
 		)
 	)
+	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "98446f55-2ec3-42aa-8c6e-08767ea47e08")
+		(at 141.975 128.7455 -90)
+		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "capacitor handsolder")
+		(property "Reference" "C7"
+			(at 0.0045 2.1 0)
+			(layer "F.SilkS")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 0 1.43 -90)
+			(layer "F.Fab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 -90)
+			(layer "F.SilkS")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6636c152-9338-4e7a-ad0e-939d2737a7e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/823bab40-4620-4366-bab3-235ce10f5b1e")
+		(sheetname "/")
+		(sheetfile "BREAD_Slice.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.146267 -0.51)
+			(end 0.146267 -0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -0.146267 0.51)
+			(end 0.146267 0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_rect
+			(start -1.65 -0.73)
+			(end 1.65 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+		)
+		(fp_rect
+			(start -0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.8625 0 -90)
+			(size 1.075 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "+5VD")
+		)
+		(pad "2" smd roundrect
+			(at 0.8625 0 -90)
+			(size 1.075 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GNDD")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "2b8d7d0a-5f21-408a-a921-542baed26501")
+		(at 108.475 93.2 -45)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor handsolder")
+		(property "Reference" "R1"
+			(at 0.8132 -2.7224 0)
+			(layer "F.SilkS")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 0 1.43 -45)
+			(layer "F.Fab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 -45)
+			(layer "F.SilkS")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 -45)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2117d235-94f0-41d7-965d-1b4929316a30")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/18af79c6-6ed2-4c05-8a1e-535fcb2ece0e")
+		(sheetname "/")
+		(sheetfile "BREAD_Slice.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.254724 -0.5225)
+			(end 0.254724 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_line
+			(start -0.254724 0.5225)
+			(end 0.254724 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+		)
+		(fp_rect
+			(start -1.65 -0.73)
+			(end 1.65 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+		)
+		(fp_rect
+			(start -0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 -45)
+			(layer "F.Fab")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.9125 0 -45)
+			(size 0.975 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/ESTOP")
+		)
+		(pad "2" smd roundrect
+			(at 0.9125 0 -45)
+			(size 0.975 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(U2A-PA12)")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(gr_rect
 		(start 98.625 106.266)
 		(end 112.225 122.734)
@@ -5293,30 +5551,6 @@
 		(layer "F.Cu")
 		(net "/I2C_DAT")
 		(uuid "db1dead2-a503-41ea-ae45-fad6b85b381a")
-	)
-	(segment
-		(start 116.025 101.35)
-		(end 116.485 101.35)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/ESTOP")
-		(uuid "a5f09752-e552-41f3-8f27-e8a435fc2b3c")
-	)
-	(segment
-		(start 100.075 85.4)
-		(end 116.025 101.35)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/ESTOP")
-		(uuid "b6c46acc-0f78-4c2f-af1f-c5997e768c0b")
-	)
-	(segment
-		(start 100.075 84.8)
-		(end 100.075 85.4)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "/ESTOP")
-		(uuid "cee6263b-cf71-4636-bdfd-b22cb22b56eb")
 	)
 	(segment
 		(start 100.075 87.34)
@@ -8617,4 +8851,9 @@
 		)
 	)
 	(embedded_fonts no)
+	(via (at 141.975 131.05) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (net "GNDD") (uuid "4110d35d-5100-49a5-8144-abc5733ed4d2"))
+	(segment (start 100.075 84.8) (end 107.8298 92.5548) (width 0.25) (layer "F.Cu") (net "/ESTOP") (uuid "1c15518e-3562-474e-a931-5a115c37599e"))
+	(segment (start 109.1202 93.8452) (end 116.529 101.296) (width 0.25) (layer "F.Cu") (net "Net-(U2A-PA12)") (uuid "c112d6b2-95fc-40f9-aa68-45c67ec6e176"))
+	(segment (start 141.975 127.883) (end 144.398 127.883) (width 0.5) (layer "F.Cu") (net "+5VD") (uuid "b89bae31-b529-4b2a-ab23-d31077a6e14a"))
+	(segment (start 141.975 129.608) (end 141.975 131.05) (width 0.5) (layer "F.Cu") (net "GNDD") (uuid "7b24b562-037c-4196-ab70-0fc91f6b0fe7"))
 )
