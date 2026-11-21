@@ -4527,11 +4527,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "2b8d7d0a-5f21-408a-a921-542baed26501")
-		(at 108.98 90.505)
+		(at 108.15 92.875 -45)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 2.895 -1.255 0)
+			(at 1.1314 -2.4395 0)
 			(layer "F.SilkS")
 			(effects
 				(font
@@ -4541,7 +4541,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.43 0)
+			(at 0 1.43 -45)
 			(layer "F.Fab")
 			(effects
 				(font
@@ -4551,7 +4551,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 -45)
 			(layer "F.SilkS")
 			(hide yes)
 			(effects
@@ -4562,7 +4562,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 -45)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2117d235-94f0-41d7-965d-1b4929316a30")
@@ -4617,7 +4617,7 @@
 			(layer "F.Fab")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 -45)
 			(layer "F.Fab")
 			(effects
 				(font
@@ -4627,14 +4627,14 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9125 0 0)
+			(at -0.9125 0 -45)
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/ESTOP")
 		)
 		(pad "2" smd roundrect
-			(at 0.9125 0 0)
+			(at 0.9125 0 -45)
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -4656,7 +4656,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "41991656-c5cd-49c7-97d5-76ecd12ff192")
-		(at 108.98 85.425)
+		(at 111.475 85.425)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP1"
@@ -4935,7 +4935,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "1d10b704-8b1a-4f64-84ab-1f29515ae6b6")
-		(at 108.98 87.965)
+		(at 111.475 87.965)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP2"
@@ -5214,11 +5214,11 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "57fdbb0d-4bae-473c-a4e0-2b509dfc71eb")
-		(at 108.98 93.045)
+		(at 109.38 96.645 -45)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP3"
-			(at 0 -1.8 0)
+			(at 0 -1.8 -45)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "36ce775d-49de-4bf2-a42a-e83fad478885")
@@ -5230,7 +5230,7 @@
 			)
 		)
 		(property "Value" "INT bus link"
-			(at 0 1.9 0)
+			(at 0 1.9 -45)
 			(layer "F.Fab")
 			(uuid "87e3f796-64c3-4c0f-83a4-b48039e45932")
 			(effects
@@ -5241,7 +5241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -45)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5254,7 +5254,7 @@
 			)
 		)
 		(property "Description" "Bridged = bus INT to the Nucleo; cut to isolate it"
-			(at 0 0 0)
+			(at 0 0 -45)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5421,7 +5421,7 @@
 			(uuid "00bd3fed-4ee5-46e5-aa92-f24e87f5891a")
 		)
 		(pad "1" smd custom
-			(at -0.65 0)
+			(at -0.65 0 -45)
 			(size 1 0.5)
 			(layers "F.Cu" "F.Mask")
 			(zone_connect 2)
@@ -5455,7 +5455,7 @@
 			(uuid "c5d2d9ae-1a91-44a0-a08e-1538a6ce8f07")
 		)
 		(pad "2" smd custom
-			(at 0.65 0)
+			(at 0.65 0 -45)
 			(size 1 0.5)
 			(layers "F.Cu" "F.Mask")
 			(zone_connect 2)
@@ -5493,11 +5493,11 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "b40dcc10-d6d0-4939-86ee-ee82275639b5")
-		(at 108.98 95.585)
+		(at 110.76 100.565 -45)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP4"
-			(at 0 -1.8 0)
+			(at 0 -1.8 -45)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "27b05ab4-fedd-453b-a2b8-d281414ac209")
@@ -5509,7 +5509,7 @@
 			)
 		)
 		(property "Value" "SYNC bus link"
-			(at 0 1.9 0)
+			(at 0 1.9 -45)
 			(layer "F.Fab")
 			(uuid "ddc81342-2b5e-4311-ab5c-cf7efe05db9f")
 			(effects
@@ -5520,7 +5520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -45)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5533,7 +5533,7 @@
 			)
 		)
 		(property "Description" "Bridged = bus SYNC to the Nucleo; cut to isolate it"
-			(at 0 0 0)
+			(at 0 0 -45)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5700,7 +5700,7 @@
 			(uuid "e5994f12-7b04-41da-89e4-2f7b01e35127")
 		)
 		(pad "1" smd custom
-			(at -0.65 0)
+			(at -0.65 0 -45)
 			(size 1 0.5)
 			(layers "F.Cu" "F.Mask")
 			(zone_connect 2)
@@ -5734,7 +5734,7 @@
 			(uuid "a26ea0bb-f000-405d-af80-545501f80dbf")
 		)
 		(pad "2" smd custom
-			(at 0.65 0)
+			(at 0.65 0 -45)
 			(size 1 0.5)
 			(layers "F.Cu" "F.Mask")
 			(zone_connect 2)
@@ -9760,31 +9760,25 @@
 	(via (at 141.975 131.05) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (net "GNDD") (uuid "4110d35d-5100-49a5-8144-abc5733ed4d2"))
 	(segment (start 141.975 127.883) (end 144.398 127.883) (width 0.5) (layer "F.Cu") (net "+5VD") (uuid "b89bae31-b529-4b2a-ab23-d31077a6e14a"))
 	(segment (start 141.975 129.608) (end 141.975 131.05) (width 0.5) (layer "F.Cu") (net "GNDD") (uuid "7b24b562-037c-4196-ab70-0fc91f6b0fe7"))
-	(via (at 112.761 102.566) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (net "/PA4") (uuid "f92a12c3-b8c9-4b73-b565-bf2d59adc46b"))
-	(segment (start 100.075 77.18) (end 108.33 85.425) (width 0.25) (layer "F.Cu") (net "/I2C_CLK") (uuid "00650647-c01c-49b8-b18e-6e8d8ced01e2"))
-	(segment (start 100.075 79.72) (end 108.33 87.965) (width 0.25) (layer "F.Cu") (net "/I2C_DAT") (uuid "d08544d3-bb2a-4760-bb91-159c1f53f506"))
-	(segment (start 100.075 84.8) (end 105.78 90.505) (width 0.25) (layer "F.Cu") (net "/ESTOP") (uuid "e6c12ca0-8e24-40bd-97c6-3939175d79c7"))
-	(segment (start 105.78 90.505) (end 108.0675 90.505) (width 0.25) (layer "F.Cu") (net "/ESTOP") (uuid "17d67c59-1570-4ff6-9800-281e9437ed9c"))
-	(segment (start 100.075 87.34) (end 105.78 93.045) (width 0.25) (layer "F.Cu") (net "/INT") (uuid "886e0619-3df3-4f25-b2e6-a816b6ac264d"))
-	(segment (start 105.78 93.045) (end 108.33 93.045) (width 0.25) (layer "F.Cu") (net "/INT") (uuid "8548f494-9655-4ebc-bf5f-1273f61414a5"))
-	(segment (start 100.075 89.88) (end 105.78 95.585) (width 0.25) (layer "F.Cu") (net "/SYNC") (uuid "5211ac7f-b46d-4059-ad35-96a3c6a9d4eb"))
-	(segment (start 105.78 95.585) (end 108.33 95.585) (width 0.25) (layer "F.Cu") (net "/SYNC") (uuid "4a9cb815-1e05-4648-bc70-acf17abb4ba0"))
-	(segment (start 109.63 85.425) (end 115.916 85.425) (width 0.25) (layer "F.Cu") (net "/PA6") (uuid "b793050c-3caa-4751-a502-8396cd2abdcf"))
-	(segment (start 115.916 85.425) (end 129.3 98.809) (width 0.25) (layer "F.Cu") (net "/PA6") (uuid "703faf9d-6a60-4d1f-add1-5abdc5e6b5eb"))
-	(segment (start 129.3 98.809) (end 129.3 103.907) (width 0.25) (layer "F.Cu") (net "/PA6") (uuid "2f2924ea-8d9a-4af7-9cb5-ca92a6609e44"))
-	(segment (start 129.3 103.907) (end 131.769 106.376) (width 0.25) (layer "F.Cu") (net "/PA6") (uuid "8b3d31ed-d157-4f9a-a594-383392226cac"))
-	(segment (start 109.63 87.965) (end 115.916 87.965) (width 0.25) (layer "F.Cu") (net "/PA5") (uuid "14dce692-18da-46e7-b838-d694ba166a07"))
-	(segment (start 115.916 87.965) (end 128.03 100.079) (width 0.25) (layer "F.Cu") (net "/PA5") (uuid "4e0784ef-f881-4e85-989e-23f4031e5149"))
-	(segment (start 128.03 100.079) (end 128.03 105.177) (width 0.25) (layer "F.Cu") (net "/PA5") (uuid "ab823303-d097-466b-ae17-e400f9fad272"))
-	(segment (start 128.03 105.177) (end 131.769 108.916) (width 0.25) (layer "F.Cu") (net "/PA5") (uuid "269c0c83-ffe0-4c22-a2cc-04c5c9829f78"))
-	(segment (start 109.8925 90.505) (end 113.475 94.0875) (width 0.25) (layer "F.Cu") (net "Net-(U2A-PA12)") (uuid "6b9ae576-1fbb-4798-b0b8-5320f0f08404"))
-	(segment (start 113.475 94.0875) (end 113.475 98.242) (width 0.25) (layer "F.Cu") (net "Net-(U2A-PA12)") (uuid "8ce6cd21-76c6-44c8-803e-0df9cca023a9"))
-	(segment (start 113.475 98.242) (end 116.529 101.296) (width 0.25) (layer "F.Cu") (net "Net-(U2A-PA12)") (uuid "f9c5566e-6cd5-4001-a020-fc4f33dfc082"))
-	(segment (start 109.63 93.045) (end 112.205 95.62) (width 0.25) (layer "F.Cu") (net "/PB0") (uuid "0499a285-8a82-49d9-b912-aa656b644598"))
-	(segment (start 112.205 95.62) (end 112.205 99.512) (width 0.25) (layer "F.Cu") (net "/PB0") (uuid "11408d9e-7472-49d6-a9ad-19b44e7bbc97"))
-	(segment (start 112.205 99.512) (end 116.529 103.836) (width 0.25) (layer "F.Cu") (net "/PB0") (uuid "4ca203e6-9893-4cf9-93ea-6a85701bd5fc"))
-	(segment (start 109.63 95.585) (end 109.63 99.435) (width 0.25) (layer "F.Cu") (net "/PA4") (uuid "8154c18c-9f14-4606-a7fa-9a29fb3d2ea7"))
-	(segment (start 109.63 99.435) (end 112.761 102.566) (width 0.25) (layer "F.Cu") (net "/PA4") (uuid "f4ef9a26-7019-45a6-9e1a-7c9257bf4da7"))
-	(segment (start 112.761 102.566) (end 122.879 102.566) (width 0.25) (layer "B.Cu") (net "/PA4") (uuid "39f2a177-ca16-468a-8bb6-32ce1ff6fcc6"))
-	(segment (start 122.879 102.566) (end 131.769 111.456) (width 0.25) (layer "B.Cu") (net "/PA4") (uuid "fed7a629-5bc3-4040-99bb-0e73c05323cf"))
+	(via (at 112.761 102.566) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (net "/PA4") (uuid "5ba9769c-5e07-4d86-9203-e6b6f1cbd216"))
+	(segment (start 100.075 77.18) (end 108.32 85.425) (width 0.25) (layer "F.Cu") (net "/I2C_CLK") (uuid "bf4e9067-4d11-4093-b6e7-315f1d928311"))
+	(segment (start 108.32 85.425) (end 110.825 85.425) (width 0.25) (layer "F.Cu") (net "/I2C_CLK") (uuid "9d142274-f002-449d-bbd1-ecfbb3939c7f"))
+	(segment (start 112.125 85.425) (end 115.916 85.425) (width 0.25) (layer "F.Cu") (net "/PA6") (uuid "90c8a308-387e-4d0a-a2d9-b79449e23cd6"))
+	(segment (start 115.916 85.425) (end 129.3 98.809) (width 0.25) (layer "F.Cu") (net "/PA6") (uuid "7baba8d6-7406-42cd-8984-0e60e85f7e94"))
+	(segment (start 129.3 98.809) (end 129.3 103.907) (width 0.25) (layer "F.Cu") (net "/PA6") (uuid "907dba7f-adb8-40c9-9734-a42e81ba26f3"))
+	(segment (start 129.3 103.907) (end 131.769 106.376) (width 0.25) (layer "F.Cu") (net "/PA6") (uuid "1c96bbf3-af34-42d4-9ce0-ecf7dad739bc"))
+	(segment (start 100.075 79.72) (end 108.32 87.965) (width 0.25) (layer "F.Cu") (net "/I2C_DAT") (uuid "031c5057-33d3-4149-aaa2-63b014136938"))
+	(segment (start 108.32 87.965) (end 110.825 87.965) (width 0.25) (layer "F.Cu") (net "/I2C_DAT") (uuid "ae19f86c-4dec-4fd9-a2e1-116e28074b01"))
+	(segment (start 112.125 87.965) (end 115.916 87.965) (width 0.25) (layer "F.Cu") (net "/PA5") (uuid "d9be32cc-14a3-4fd2-9bb4-00d556fce73b"))
+	(segment (start 115.916 87.965) (end 128.03 100.079) (width 0.25) (layer "F.Cu") (net "/PA5") (uuid "d76eecbd-27fa-4ae5-9147-ad6cd8c512c6"))
+	(segment (start 128.03 100.079) (end 128.03 105.177) (width 0.25) (layer "F.Cu") (net "/PA5") (uuid "3380f7e7-a3d4-47f5-ae8f-126615f03d64"))
+	(segment (start 128.03 105.177) (end 131.769 108.916) (width 0.25) (layer "F.Cu") (net "/PA5") (uuid "f3ea81be-ae2b-410d-8fea-e8e99cca78bb"))
+	(segment (start 100.075 84.8) (end 107.505 92.23) (width 0.25) (layer "F.Cu") (net "/ESTOP") (uuid "ef949441-09ec-477c-ad13-2ddf3f30598e"))
+	(segment (start 108.795 93.52) (end 116.529 101.296) (width 0.25) (layer "F.Cu") (net "Net-(U2A-PA12)") (uuid "437a4b86-85a5-4f1d-aaaf-8374733132f5"))
+	(segment (start 100.075 87.34) (end 108.92 96.185) (width 0.25) (layer "F.Cu") (net "/INT") (uuid "c707dee9-1321-41de-903c-069fe9080b0b"))
+	(segment (start 109.84 97.105) (end 116.529 103.836) (width 0.25) (layer "F.Cu") (net "/PB0") (uuid "6313a32d-d734-4233-b487-72aa3a8ff4cb"))
+	(segment (start 100.075 89.88) (end 110.3 100.105) (width 0.25) (layer "F.Cu") (net "/SYNC") (uuid "b8f39af5-f8b5-4933-8793-99ad2721ae64"))
+	(segment (start 111.22 101.025) (end 112.761 102.566) (width 0.25) (layer "F.Cu") (net "/PA4") (uuid "9f46369e-a925-4c2e-9cbe-37e66062e74f"))
+	(segment (start 112.761 102.566) (end 122.879 102.566) (width 0.25) (layer "B.Cu") (net "/PA4") (uuid "9331695a-7068-4f6c-b6a7-31c5a4edce63"))
+	(segment (start 122.879 102.566) (end 131.769 111.456) (width 0.25) (layer "B.Cu") (net "/PA4") (uuid "b470ca93-997a-4d35-916c-a11a1ef5d77c"))
 )
