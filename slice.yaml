@@ -1,8 +1,8 @@
 schema_version: "1.0"
 
 # ── Identity ──────────────────────────────────────────────────────────────────
-id: "slice-temp-nucl-s4l-r1"
-name: "Slice Template — Nucleo32, Small, 4-Layer, Rev 1"
+id: "slice-temp-nucl-s4l"
+name: "Slice Template — Nucleo32, Small, 4-Layer"
 status: "released"
 category: "template"
 
@@ -109,7 +109,7 @@ related:
   supersedes: null
   superseded_by: null
   variants:
-    - "slice-temp-nucl-l4l-r1"
+    - "slice-temp-nucl-l4l"
   compatible_slices: []
 
 # ── Maintainers ───────────────────────────────────────────────────────────────
@@ -126,7 +126,7 @@ license:
 
 # ── Repository ────────────────────────────────────────────────────────────────
 repository:
-  url: "https://github.com/feastorg/Slice_TEMP_NUCL_S4L-r1"
+  url: "https://github.com/feastorg/Slice_TEMP_NUCL_S4L"
 
 # ── Metadata ──────────────────────────────────────────────────────────────────
 metadata:
